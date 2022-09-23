@@ -1,0 +1,76 @@
+body {
+	margin:0;
+}
+
+
+a:link, a:visited, a:hover, a:active{
+	text-decoration: none;
+}
+
+
+a{
+	color: white;
+	margin: 15px;
+	font-size: 18px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-left {
+  position: absolute;
+  top: 5px;
+  left: 200px;
+	font-size: 60px;
+	text-align: left;
+	font-family: 'Work Sans', sans-serif;
+
+}
+
+.top-left-par{
+  position: absolute;
+  top: 200px;
+  left: 200px;
+	text-align: left;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.topnav{
+	position: absolute;
+  top: 8px;
+  right: 16px;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.container-work{
+	margin: 250px;
+	display: flex;
+	justify-content: space-between;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+}
+
+.container-aboutMe{
+	margin: 250px;
+	display: flex;
+	grid-gap: 20%;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.container-contact{
+	margin: 250px;
+	display: flex;
+	grid-gap: 20%;
+	font-family: 'Work Sans', sans-serif;
+}
+
+footer{
+	display: flex;
+	justify-content: center;
+	font-family: 'Work Sans', sans-serif;
+}
